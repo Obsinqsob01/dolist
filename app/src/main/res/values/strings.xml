@@ -2,4 +2,6 @@
     <string name="app_name">DoList</string>
     <string name="title">DoList</string>
     <string name="text_add_task">Añadir una nueva tarea</string>
+    <string name="text_button_edit">Editar</string>
+    <string name="text_button_delete">Eliminar</string>
 </resources>
