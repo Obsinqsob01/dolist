@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/task_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="asdcadscasdcasdc"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimaryText"/>
+
+            <TextView
+                    android:id="@+id/task_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="asdcadscasdca"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.ButtonBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/colorAccent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="@string/text_button_edit"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="@string/text_button_delete"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"/>
+    </android.support.v7.widget.ButtonBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>
