@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/navigation_task_view_edit"
+            android:icon="@drawable/ic_add_black"
+            android:title="Editar"/>
+    <item
+            android:id="@+id/navigation_task_view_delete"
+            android:icon="@drawable/ic_delete_black_24dp"
+            android:title="Eliminar"/>
+</menu>
